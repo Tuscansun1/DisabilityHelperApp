@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml, AndroidDomInspection -->
+<!--suppress AndroidDomInspection, AndroidDomInspection -->
+
+<resources>
+    <!-- Base application theme -->
+    <!--suppress AndroidDomInspection, AndroidDomInspection, AndroidDomInspection -->droidDomInspection -->
+    <style name="Theme.DisabilityHelperAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <!--suppress AndroidDomInspection -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorSecondaryContainer">@c<!--suppress AndroidDomInspection -->
+            olor/colorSecondaryContainer</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorBackground">@color/colorBackground</item>
+        <!--suppress AndroidDomInspection -->
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+    </style>
+</resources>
+

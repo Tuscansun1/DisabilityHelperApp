@@ -1,45 +1,69 @@
 [versions]
-activityComposeVersion = "1.7.2"
-agp = "8.5.0"
-androidxJunit = "1.1.5"
-coreKtxVersion = "1.12.0"
-espressoCoreVersion = "3.5.1"
+activityComposeVersion = "1.9.1"
+agp = "8.5.1"
+androidxComposeMaterial3Material3 = "1.1.0"
+androidxJunit = "1.2.1"
+androidxMaterial3 = "1.2.1"
+androidxMaterial3Version = "1.2.1"
+androidxUiTestJunit4 = "1.6.8"
+androidxUiVersion = "1.4.0"
+coreKtxVersion = "1.13.1"
+espressoCoreVersion = "3.6.1"
+foundation = "1.6.8"
 kotlin = "1.9.0"
+compose = "1.6.8"
+composeCompiler = "1.4.3"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.3"
-activityCompose = "1.9.0"
-composeBom = "2024.04.01"
-lifecycleRuntimeKtxVersion = "2.6.2"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.06.00"
+lifecycleRuntimeKtxVersion = "2.8.4"
 material3 = "1.2.1"
-material3Version = "1.2.0"
-navigationComposeVersion = "2.7.1"
+material3Version = "1.2.1"
+material3WindowSizeClass = "1.2.1"
+navigationComposeVersion = "2.7.7"
 navigationRuntimeKtx = "2.7.7"
 navigationCompose = "2.7.7"
 ui = "1.6.8"
 uiTestJunit4 = "1.6.8"
-uiTestJunit4Version = "1.4.7"
+uiTestJunit4Version = "1.6.8"
 uiTestManifest = "1.6.8"
-uiTestManifestVersion = "1.4.7"
+uiTestManifestVersion = "1.6.8"
 uiTooling = "1.6.8"
 uiToolingPreview = "1.6.8"
-uiToolingPreviewVersion = "1.4.7"
-uiToolingVersion = "1.4.7"
-uiVersion = "1.4.7"
+uiToolingPreviewVersion = "1.6.8"
+uiToolingVersion = "1.6.8"
+uiVersion = "1.6.8"
 workRuntimeKtx = "2.9.0"
-workRuntimeKtxVersion = "2.8.1"
+workRuntimeKtxVersion = "2.9.0"
+androidxCoreKtx = "1.9.0"
+androidxActivityCompose = "1.7.0"
+androidxComposeUi = "1.4.7"
+androidxComposeMaterial3 = "1.2.0"
+androidxNavigationCompose = "2.7.1"
+androidxWorkRuntimeKtx = "2.8.1"
+androidxLifecycleRuntimeKtx = "2.5.1"
+androidxEspressoCore = "3.4.0"
+material3Android = "1.2.1"
+androidx_material3_window_size = "1.2.1"
 
 [libraries]
 androidx-activity-compose-v172 = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-core-ktx-v1120 = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
 androidx-espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "foundation" }
 androidx-junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
 androidx-lifecycle-runtime-ktx-v262 = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtxVersion" }
+androidx-material3-v101 = { module = "androidx.compose.material3:material3", version.ref = "androidxMaterial3" }
+androidx-material3-v110 = { module = "androidx.compose.material3:material3", version.ref = "androidxComposeMaterial3Material3" }
+androidx-material3-v111 = { module = "androidx.compose.material3:material3", version.ref = "androidxMaterial3Version" }
 androidx-material3-v120 = { module = "androidx.compose.material3:material3", version.ref = "material3Version" }
 androidx-navigation-compose-v271 = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+androidx-ui-test-junit4-v143 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "androidxUiTestJunit4" }
 androidx-ui-test-junit4-v147 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "uiTestJunit4Version" }
 androidx-ui-test-manifest-v147 = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestManifestVersion" }
 androidx-ui-tooling-preview-v147 = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreviewVersion" }
@@ -68,8 +92,13 @@ ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = 
 ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "uiTestManifest" }
 ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "uiTooling" }
 ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "uiToolingPreview" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "compose" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
+androidx_material3_window_size = { module = "androidx.compose.material3:material3-window-size-class", version.ref = "androidx_material3_window_size" }
+ui-v140 = { module = "androidx.compose.ui:ui", version.ref = "androidxUiVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-
+jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "composeCompiler" }
